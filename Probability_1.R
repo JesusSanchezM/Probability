@@ -34,5 +34,6 @@ r <- replicate(10^4, max(tabulate(sample(1:365, 23, replace=T))))
 sum(r>=2)/10^4
 plot(density(r))
 
+#hola prueba 1
 
 
